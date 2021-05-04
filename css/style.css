@@ -20,6 +20,23 @@ h2 {
     font-size: 3em;
 }
 
+
+dt {
+    color: #de004a;
+}
+
+dt:hover {
+    background-color: #f1dede;
+}
+
+dd {
+    padding-left: 1vh;
+}
+
+dd:hover {
+    background-color: #ece8cf;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -146,7 +163,22 @@ section p {
     color: #de004a;
 }
 
+.chronology {
+    position: relative;
+    left: 30%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    width: 60%;
 
+}
+
+.chronology:hover {
+    background-color: #eeeeee;
+}
 
 
 
