@@ -9,7 +9,7 @@
 
 body {
     min-height: 1000px;
-    background-color: #fff;
+    background-color: #919191;
 }
 
 a {
@@ -23,11 +23,11 @@ h2 {
 
 
 dt {
-    color: #de004a;
+    color: #8d0835;
 }
 
 dt:hover {
-    background-color: #f1dede;
+    background-color: #947878;
 }
 
 dd {
@@ -35,7 +35,7 @@ dd {
 }
 
 dd:hover {
-    background-color: #ece8cf;
+    background-color: #918742;
 }
 
 header {
@@ -78,7 +78,7 @@ header .logo {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 15vw;
-    color: #fff;
+    color: #d8d8d8;
     font-weight: 700;
     transition: 1s;
     text-decoration: none;
@@ -119,7 +119,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #d8d8d8;
     display: inline-block;
     padding: 10px 15px;
     font-size: 1.2em;
@@ -141,6 +141,11 @@ nav ul li a:hover {
 #switchMode:hover {
     background-color: rgba(255, 255, 255, 0.123);
 }
+
+#switchMode:active, 
+#switchMode:focus {
+    outline: none;
+}
 .container {
     max-width: 100%;
     width: 1200px;
@@ -157,28 +162,27 @@ section p {
     font-size: 1.2em;    
 }
 .about {
-    background-color: #f3f3f3;
+    background-color: #8d8d8d;
     padding: 15px;
     border-radius: 15px;
     width: 60%;
 }
 
 .about:hover {
-    background-color: #eeeeee;
+    background-color: #868686;
 }
 
 .contacts {
     margin-top: 50px;
-    border-left: 2px solid #de004a;
+    border-left: 2px solid #8d0835;
     padding-left: 15px;
     font-size: 14px;
-    color: #de004a;
+    color: #8d0835;
 }
 
 .contacts p:hover {
-    color: rgb(228, 197, 96);
+    color: rgb(216, 187, 93);
 }
-
 .chronology {
     position: relative;
     left: 30%;
@@ -186,14 +190,14 @@ section p {
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 15px;
-    background-color: #f3f3f3;
+    background-color: #8d8d8d;
     border-radius: 15px;
     width: 60%;
 
 }
 
 .chronology:hover {
-    background-color: #eeeeee;
+    background-color: #868686;
 }
 
 .add__info {
@@ -244,7 +248,7 @@ section p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #fff;
+    background: #919191;
     transform: scaleX(0);
     transition: transform .5s ease-in-out;
     transform-origin: right;
