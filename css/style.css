@@ -16,6 +16,10 @@ a {
     color: rgb(70, 70, 70);
 }
 
+h2 {
+    font-size: 3em;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -28,6 +32,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     transition: 1s;
+    z-index: 100;
 }
 
 header.sticky {
@@ -104,7 +109,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff275f;
+    color: #de004a;
 }
 
 .container {
@@ -118,18 +123,28 @@ section {
     padding: 100px;
 }
 
-section h2 {
-    font-size: 3em;
-
-}
-
 section p {
     margin-top: 20px;
-    font-size: 1.2em;
-    width: 750px;    
+    font-size: 1.2em;    
+}
+.about {
+    background-color: #f3f3f3;
+    padding: 15px;
+    border-radius: 15px;
+    width: 60%;
 }
 
+.about:hover {
+    background-color: #eeeeee;
+}
 
+.contacts {
+    margin-top: 50px;
+    border-left: 2px solid #de004a;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #de004a;
+}
 
 
 
