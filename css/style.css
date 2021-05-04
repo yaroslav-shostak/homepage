@@ -1,11 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
+body {
+    min-height: 1000px;
+}
 
+a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 0 100px;
+    background: #000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: 1s;
+}
 
+header.sticky {
+    height: 100px;
+}
+
+header .banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    object-fit: cover;
+    transition: 1s;
+}
+
+header.sticky .banner {
+    opacity: .5;
+}
+
+header .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15vw;
+    color: #fff;
+    font-weight: 700;
+    transition: 1s;
+    text-decoration: none;
+    z-index: 1;
+}
+
+header.sticky .logo {
+    position: absolute;
+    font-size: 2em;
+    left: 100px;
+    transform: translate(0%, -50%);
+
+}
+
+nav {
+    position: relative;
+    display: flex;
+    z-index: 1;
+}
+
+nav ul {
+    position: relative;
+    display: flex;
+    transition:  0.25s;
+    transform: translateY(70px);
+    opacity: 0;
+}
+
+header.sticky nav ul {
+    transform: translateX(0);
+    transition-delay: 0.7s;
+    opacity: 1;
+    visibility: visible;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ff275f;
+}
+
+.container {
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 20vh;
+    padding: 100px;
+}
+
+section h2 {
+    font-size: 3em;
+
+}
+
+section p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    width: 750px;    
+}
 
 
 
